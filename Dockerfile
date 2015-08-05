@@ -1,4 +1,6 @@
-FROM registry-aweitekadev.rhcloud.com/busybox
+FROM centos:centos7
 
-CMD bash
+MAINTAINER Aaron Weitekamp <aweiteka@redhat.com>
+
+CMD echo "hello, world"
 
